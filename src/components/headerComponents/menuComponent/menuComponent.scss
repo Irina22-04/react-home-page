@@ -1,0 +1,38 @@
+.menu {
+  background-color: #0b0c23;
+  opacity: 0.98;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  color: white;
+
+  .menu-center {
+    text-align: center;
+  }
+
+  .burger-close {
+    margin-top: 103px;
+    margin-bottom: 104px;
+  }
+
+  .menu-item {
+    font-size: 29.8px;
+    margin-bottom: 39px;
+    letter-spacing: 0.3px;
+  }
+
+  .whide-word {
+    letter-spacing: 1.4px;
+  }
+
+  .slim-word {
+    letter-spacing: -1px;
+  }
+
+  .menu-square {
+    margin-bottom: 45px;
+  }
+}

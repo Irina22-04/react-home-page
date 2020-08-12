@@ -1,0 +1,35 @@
+.coin {
+  position: relative;
+  background-color: #1e1f36;
+  width: 60px;
+  height: 79px;
+  color: #C4C4C4;
+  font-size: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 16px;
+  margin-bottom: 12px;
+
+  &:nth-of-type(3n+2) {
+    margin-right: 0;
+  }
+}
+
+.coin-image {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+}
+
+.coin-name {
+  font-size: 9.3px;
+  position: absolute;
+  bottom: 11px;
+  left: 21px;
+  letter-spacing: .5px;
+}
+
+.selected-coin {
+  background-color: #10112a;
+  border: 1px solid #333;
+}

@@ -1,0 +1,25 @@
+.dot {
+  width: 1.75px;
+  height: 1.75px;
+  position: absolute;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.left-top-dot {
+  top: 0;
+  left: 0;
+}
+.left-bottom-dot {
+  bottom: 0;
+  left: 0;
+}
+.right-top-dot {
+  right: 0;
+  top: 0;
+}
+
+.right-bottom-dot {
+  right: 0;
+  bottom: 0;
+}

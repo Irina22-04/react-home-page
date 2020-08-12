@@ -1,0 +1,13 @@
+.filter {
+  width: 213px;
+  margin-left: 91px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .filter {
+    display: block;
+  }
+}

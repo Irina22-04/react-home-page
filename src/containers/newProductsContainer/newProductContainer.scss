@@ -1,0 +1,14 @@
+.new-products {
+  width: 215px;
+  margin-left: 26px;
+  flex-shrink: 0;
+  display: none;
+  padding-left: 2px;
+  box-sizing: border-box;
+}
+
+@media(min-width: 1440px) {
+  .new-products {
+    display: block;
+  }
+}

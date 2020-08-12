@@ -1,0 +1,31 @@
+.star {
+  position: absolute;
+  right: 9%;
+  top: 7%;
+
+  img {
+    width: 150%;
+  }
+}
+
+@media (min-width: 768px){
+  .star {
+    right: 12.3%;
+    top: 8.7%;
+
+    img {
+      width: 250%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .star {
+    right: 15px;
+    top: 15px;
+
+    img {
+      width: auto;
+    }
+  }
+}

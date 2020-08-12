@@ -1,0 +1,226 @@
+.header-wrapper {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+  .header {
+    height: 40vw;
+    background-color: #0b0c23;
+    position: relative;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-size: 14.5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7.2vw 7.9vw 0 7.9vw;
+    box-sizing: border-box;
+
+    .logo {
+      width: 17.7%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .lang {
+      position: absolute;
+      top: 30px;
+      left: 133px;
+      display: none;
+
+      .lang-word {
+        margin-left: 15px;
+        position: relative;
+        top: -2px;
+      }
+    }
+
+    .burger {
+      background-image: url('../../images/controls.svg');
+      width: 5.6vw;
+      height: 5vw;
+      background-size: contain;
+      order: -1;
+      background-repeat: no-repeat;
+    }
+
+    .user-info {
+
+      .account {
+        margin-right: 1px;
+        display: none;
+
+        span {
+          letter-spacing: -0.5px;
+          margin-left: 9px;
+          margin-right: 1px;
+        }
+
+        .user {
+          position: relative;
+          top: 4px;
+        }
+
+        .account-arrow {
+          position: relative;
+          top: -2px;
+          margin-left: 11px;
+        }
+      }
+
+      .account-item {
+        display: none;
+        margin-left: 14px;
+
+        .list {
+          margin-right: 14px;
+
+          &.add-space {
+            margin-right: 16px;
+          }
+        }
+
+        span {
+          margin-right: 12px;
+        }
+
+        .account-item-image {
+          position: relative;
+          top: 3px;
+        }
+      }
+
+      .mobile-cart {
+        width: 5.1vw;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .submenu {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    margin-left: 30.5%;
+    font-size: 260%;
+    color: white;
+    position: absolute;
+    bottom: 4.8vw;
+    box-sizing: border-box;
+
+    .slim {
+      letter-spacing: -2px;
+    }
+
+    .no-active {
+      color: #1e1f36;
+    }
+
+    .no-active-mobile {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .header-wrapper {
+
+    .header {
+      padding: 7.9vw 7.9vw 0 7.9vw;
+
+      .logo {
+        width: 16.8%;
+      }
+
+      .burger {
+        width: 4.6vw;
+        height: 4.3vw;
+      }
+
+      .mobile-cart {
+        width: 4.6vw;
+      }
+
+      .submenu {
+        width: 57%;
+        margin-left: 34%;
+        font-size: 315%;
+        bottom: 10vw;
+      }
+
+      .no-active-mobile {
+        display: block;
+      }
+    }
+
+  }
+}
+
+@media(min-width: 1024px) {
+  .header-wrapper {
+
+    .header {
+      height: 78px;
+      display: block;
+      padding: 0;
+
+      .lang {
+        display: block;
+      }
+
+      .logo {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        width: 74.64px;
+        height: 21.02px;
+
+        img {
+          width: auto;
+        }
+      }
+
+      .burger {
+        width: 23.02px;
+        height: 23.02px;
+        background-image: url('../../images/hamburger-open.svg');
+        position: absolute;
+        top: 29px;
+        left: calc(50% - 23.02px / 2);
+
+        img {
+          width: auto;
+        }
+      }
+
+      .user-info {
+        display: block;
+        position: absolute;
+        top: 25.5px;
+        right: 30px;
+
+        .mobile-cart {
+          display: none;
+        }
+
+        .account {
+          display: inline-block;
+        }
+
+        .account-item {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .submenu {
+    display: none;
+  }
+}
+
+

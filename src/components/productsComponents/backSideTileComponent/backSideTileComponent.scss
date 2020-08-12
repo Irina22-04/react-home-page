@@ -1,0 +1,112 @@
+.back-product-tile {
+  padding: 11px 16px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  letter-spacing: .3px;
+
+  .back-tile-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    left: 50px;
+    filter: blur(8px);
+    opacity: 0.2;
+  }
+
+  .back-substrate {
+    background-color: #1e1f36;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .absolut-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 11px 16px;
+  }
+
+  .tile-name {
+    color: #C4C4C4;
+  }
+
+  .tile-price {
+    position: absolute;
+    top: 80px;
+    left: 16px;
+  }
+
+  .PSU {
+    top: 95px;
+    right: 47px;
+  }
+
+  .hash-rate {
+    margin-top: 82px;
+    width: 170px;
+    height: 26px;
+    border: 1px solid #3f3f3f;
+    line-height: 26px;
+    padding-left: 11px;
+    position: relative;
+    font-weight: lighter;
+    font-size: 12px;
+    letter-spacing: .8px;
+    background-color: #08061e;
+    opacity: .7;
+    box-sizing: border-box;
+  }
+
+  .arrow {
+    position: absolute;
+    right: 7px;
+    top: 10px;
+  }
+
+  .tile-buttons {
+    margin-top: 15px;
+    >div {
+      text-align: center;
+      font-weight: lighter;
+    }
+
+    .details-button {
+      background-color: #141467;
+      color: white;
+      display: inline-block;
+      margin-right: 15px;
+      width: 84px;
+      height: 30px;
+      line-height: 31px;
+    }
+
+    .add-button {
+      position: absolute;
+      background-color: #08061e;
+      opacity: .7;
+      display: inline-block;
+      height: 29px;
+      width: 82px;
+      line-height: 29px;
+      margin-top: 2px;
+    }
+  }
+
+}
+
+
+
+

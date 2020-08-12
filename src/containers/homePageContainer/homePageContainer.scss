@@ -1,0 +1,16 @@
+.main-container {
+  width: 100%;
+  background: #0B0C23;
+  /*>div {
+    margin: auto;
+    width: max-content;
+  }*/
+  .components-container {
+    display: flex;
+    width: 100%;
+    /*padding-left: calc((100% - 895px)/2);*/
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+}

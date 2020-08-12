@@ -1,0 +1,24 @@
+.filter-manufacture-field {
+  height: 30.5px;
+  position: relative;
+  box-sizing: border-box;
+  font-size: 9.5px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: white;
+  width: 99px;
+  background-color: #1e1f36;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid transparent;
+  margin-bottom: 14px;
+
+  &:nth-of-type(2n+1) {
+    margin-right: 15px;
+  }
+}
+
+.selected-manufacture {
+  background-color: #10112a;
+  border: 1px solid #333;
+}

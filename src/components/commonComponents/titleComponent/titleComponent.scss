@@ -1,0 +1,38 @@
+.title {
+  height: 143px;
+  padding-top: 88px;
+  box-sizing: border-box;
+  font-family: 'Exo', sans-serif;
+  display: none;
+
+  .title-name {
+    font-size: 24.5px;
+    margin-left: 2px;
+    color: white;
+    letter-spacing: -0.8px;
+  }
+
+  &.sale-products {
+    padding-left: 59.5px;
+    padding-right: 46px;
+
+    .title-name {
+      letter-spacing: .2px;
+    }
+  }
+
+  &.new-product .title-name {
+    letter-spacing: -0.5px;
+  }
+
+  &.news-title .title-name{
+    padding-left: 0;
+    margin-left: -2px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title {
+    display: block;
+  }
+}
